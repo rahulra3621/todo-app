@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %}
+About
+{% endblock title %}
+{% block body %}
+
+     {% block nav %}
+        
+     {% endblock nav %}
+  <div class="container my-3">
+    <h1>About This ToDo App</h1>
+    <p>Welcome to the <strong>ToDo App</strong> – your simple and effective task management companion.</p>
+
+    <p>Whether you're organizing your day, planning a project, or just staying productive, this app helps you:</p>
+    <ul>
+      <li>✅ Create tasks quickly</li>
+      <li>✏️ Edit and update existing tasks</li>
+      <li>🗑️ Delete completed or unnecessary tasks</li>
+      <li>📆 Track due dates and descriptions</li>
+    </ul>
+
+    <h2>Why We Built It</h2>
+    <p>We believe productivity tools should be clean and hassle-free. This app focuses on a minimal, distraction-free experience so you can stay on track.</p>
+
+    <h2>How It Works</h2>
+    <ul>
+      <li>Tasks are stored using a secure database</li>
+      <li>Built with <strong>Flask (Python)</strong> and <strong>HTML/CSS</strong></li>
+      <li>Works in your browser — no setup needed</li>
+    </ul>
+
+    <h2>Future Features</h2>
+    <ul>
+      <li>🔔 Reminders and notifications</li>
+      <li>🗂️ Categories and tags</li>
+      <li>🌙 Dark mode</li>
+      <li>🤝 Task sharing</li>
+    </ul>
+
+    <div class="footer">
+      <p>Made with ❤️ as a learning project using Flask.</p>
+    </div>
+  </div>
+  {% endblock body %}
+
+  {% block script %}
+    
+  {% endblock script %}
+
